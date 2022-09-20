@@ -39,5 +39,5 @@ The `app_id` of the app is available in the App Store Connect URL when you selec
 ## Usage
 Run the tool using the command specifying valid paths to the configuration file and the folder where dsym will be saved.
 ```
-swift run DsymDownloader --configFilePath ../config.toml --outputPath ../Layout
+swift run DsymDownloader --configFilePath ../config.toml --outputPath ../dsyms
 ```
